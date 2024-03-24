@@ -30,6 +30,13 @@ parent: ZTE
 {% include image.html file="f6005_tim.jpg" alt="F6005 TIM" caption="F6005 with ZTE branding, like the ones used by TIM" %}
 {% include image.html file="f6005_teardown.jpg" alt="F6005 teardown" caption="F6005 teardown" %}
 
+## Change Ploam Password 
+
+On some software version Password and Update Password fields are disabled and hidden even when using the admin account. They sometimes can be re-enabled via the browser’s developer console by editing the HTML code
+
+Tested with 
+- V6.0.10P2N19 (Openfiber)
+
 ## Serial
 
 The ONT has a TTL 3.3v UART console (configured as 115200 8-N-1) that can be accessed from the top surface. To accept TX line commands, the GND of the TTL adapter should be attached to the ONT's shield:
